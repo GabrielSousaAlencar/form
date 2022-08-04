@@ -1,0 +1,71 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+    background-image: linear-gradient(to right, rgb(203, 20, 220),rgb(58, 13, 163));
+    font-family: 'Times New Roman', Times, serif
+}
+header{
+    background-color: rgba(78, 4, 68, 0.459); 
+    box-shadow: 0px 0px 27px black;
+    margin-top: 3px;
+    border-radius: 10px;
+    
+}
+nav{
+  text-align: right; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a{
+  text-decoration: none;
+  font-size: 25px; 
+  padding-right: 15px;
+  color:white;
+}
+a:hover{
+    color: rgb(255, 30, 236);
+}
+/*Conteudo Principal*/
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+fieldset{
+    width: 500px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.336);
+    color:white;
+    border-radius: 10px;
+    border-color: rgb(255, 30, 236);
+}
+legend{
+    border: 1px solid rgb(255, 30, 236);
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(203, 20, 220),rgb(58, 13, 163));
+    border-radius: 8px;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+p{
+    text-align: center;
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+img{
+    width: 400px;
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 3px  black;
+    border-radius: 30px;
+}
+h1{
+ text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+ color: white;
+}
